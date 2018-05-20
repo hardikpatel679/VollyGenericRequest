@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements Response {
         btnCall.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String url = "http://new.comnet.com.sg/cognifyxservice/1.0/User/LoginUser";
+                String url = "";
                 Map<String,String> param = new HashMap<>();
                 param.put("EMAIL","hardik@comnet.com.sg");
                 param.put("PASSWORD","aaqwe123@A");
